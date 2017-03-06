@@ -1,5 +1,5 @@
 /**
- * Imports
+ * @flow
  */
 import React, { Component } from 'react';
 

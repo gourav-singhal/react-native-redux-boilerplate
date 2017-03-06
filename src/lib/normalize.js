@@ -1,5 +1,5 @@
 /**
- * flow
+ * @flow
  */
 
 import { width } from './device';

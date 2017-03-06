@@ -3,9 +3,14 @@
  */
 
 /** Initial State  */
-const INITIAL_STATE = { status : '' }
+const INITIAL_STATE: any = { status : '' }
 
-export default function(state = INITIAL_STATE, action)
+declare type AppAction = {
+    type: string,
+    payload: any
+}
+
+export default function(state: any = INITIAL_STATE, action: AppAction): any
 {
     return state;
 }
